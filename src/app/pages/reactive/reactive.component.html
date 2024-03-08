@@ -1,6 +1,13 @@
+<style>
+  .formulario{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 20px;
+  }
+</style>
+
 <h4>Formularios <small> reactivos </small></h4>
 <hr>
-<form autocomplete="off" [formGroup]="forma" (ngSubmit)="guardar()">
+<form autocomplete="off" class="formulario p-5" [formGroup]="forma" (ngSubmit)="guardar()">
 
   <div>
 
