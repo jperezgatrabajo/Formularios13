@@ -59,7 +59,7 @@ export class ReactiveComponent implements OnInit {
     this.forma.get('nombre')?.valueChanges.subscribe(valor=>{
       console.log(valor);
       if(valor==='Juan'){
-          this.forma.get('apellido')?.setValue('perez');
+          this.forma.get('apellido')?.setValue('');
       }
     })
   }
